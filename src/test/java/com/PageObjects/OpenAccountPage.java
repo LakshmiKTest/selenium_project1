@@ -31,7 +31,7 @@ public class OpenAccountPage extends BasePage {
 
 		Select select = new Select(customer_dropdown);
 		customer_dropdown.click();
-		select.selectByVisibleText("Harry Potter");
+		select.selectByVisibleText("sadhana kadari");
 	}
 
 	public void select_currency() {

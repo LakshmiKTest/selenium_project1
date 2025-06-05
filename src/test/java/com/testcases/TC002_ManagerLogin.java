@@ -32,8 +32,9 @@ public class TC002_ManagerLogin extends BaseClass {
 	@Test
 	public void openAccount() throws InterruptedException {
 
-		HomePage hp = new HomePage(driver);
-		hp.bankmanagerlogin_click();
+		
+		  HomePage hp = new HomePage(driver); 
+		 
 
 		OpenAccountPage op = new OpenAccountPage(driver);
 		op.openaccount();
@@ -53,7 +54,10 @@ public class TC002_ManagerLogin extends BaseClass {
 		assertTrue(false);
 	}
 	driver.switchTo().alert().accept();
+	hp.homebtn();
 	
 	}
+	
+
 
 }
