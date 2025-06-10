@@ -26,7 +26,7 @@ public class CustomerLoginPage extends BasePage {
 		List<WebElement> names = select.getOptions();
 		for (WebElement name : names) {
 			System.out.println(name.getText());
-			if (name.getText().equals("Harry Potter")){
+			if (name.getText().equals("Ron Weasly")){
 				name.click();
 			}
 		}
