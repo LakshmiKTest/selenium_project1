@@ -38,16 +38,16 @@ public class ManagerPage extends BasePage {
 		customers_btn.click();
 	}
 
-	public void enter_firstname() {
-		firstname_txt.sendKeys("sadhana");
+	public void enter_firstname(String firstname) {
+		firstname_txt.sendKeys("firstname");
 	}
 
-	public void enter_lastname() {
-		lastname_txt.sendKeys("kadari");
+	public void enter_lastname(String lastname) {
+		lastname_txt.sendKeys("lastname");
 	}
 
-	public void enter_postcode() {
-		postcode_txt.sendKeys("500049");
+	public void enter_postcode(String postcode) {
+		postcode_txt.sendKeys("postcode");
 	}
 
 	public void addcustomer_click() {

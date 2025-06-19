@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test2(failed)">
+  <test thread-count="5" name="Test(failed)">
     <classes>
       <class name="com.testcases.TC002_ManagerLogin">
         <methods>
           <include name="setup"/>
-          <include name="openAccount"/>
           <include name="teardown"/>
+          <include name="beforeTestCase"/>
+          <include name="addCustomer"/>
         </methods>
       </class> <!-- com.testcases.TC002_ManagerLogin -->
     </classes>
-  </test> <!-- Test2(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

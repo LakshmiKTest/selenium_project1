@@ -41,7 +41,7 @@ public class AccountPage extends BasePage {
 	}
 
 	public void enterAmount(String amount) {
-		amount_textarea.sendKeys(amount);
+		amount_textarea.sendKeys("amount");
 
 	}
 
