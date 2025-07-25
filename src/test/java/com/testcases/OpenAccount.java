@@ -3,7 +3,7 @@ package com.testcases;
 import org.testng.annotations.Test;
 
 import com.Basetest.BaseClass;
-<<<<<<< HEAD
+ 
 
 # Open account class
  
